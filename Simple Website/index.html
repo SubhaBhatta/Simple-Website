@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Website Design HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#">Subhadaya Bhatta</a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="img"></div>
+    <div class="center">
+      <div class="title">Amazing Website</div>
+      <div class="sub_title">Pure HTML & CSS Only</div>
+      <div class="btns">
+        <button>Learn More</button>
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container_about">
+        <img src="ab.jpg" alt="">
+        <div class="about-container">
+          <h2>About Me</h2>
+          <p>I am a passionate developers who love to create amazing websites. My mission is to provide high-quality web development services that help businesses achieve their goals online. I believe in the power of the web to transform businesses and improve lives.</p>
+          <p>I value integrity, innovation, and customer satisfaction. I strive to build long-term relationships with our clients by providing reliable and effective web solutions. Your success is my success, and I am dedicated to helping you achieve your online goals.</p>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="services">
+      <div class="services-container">
+        <h2>Services</h2>
+        <div class="service-box">
+          <div class="service">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Web Development</h3>
+            <p>I build responsive and scalable web applications.</p>
+          </div>
+          <div class="service">
+            <i class="fas fa-paint-brush"></i>
+            <h3>UI/UX Design</h3>
+            <p>I create user-friendly and visually appealing designs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>You can reach me at: subhabhatta03@gmail.com</p>
+      </div>
+    </section>
+
+    <section id="feedback">
+      <div class="feedback-container">
+        <h2>Feedback</h2>
+        <form>
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="rating">Rating:</label>
+              <select id="rating" name="rating">
+                  <option value="5">5 - Excellent</option>
+                  <option value="4">4 - Very Good</option>
+                  <option value="3">3 - Good</option>
+                  <option value="2">2 - Fair</option>
+                  <option value="1">1 - Poor</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments"></textarea>
+          </div>
+          <button type="submit">Submit Feedback</button>
+      </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2024 Subhadaya Bhatta. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
